@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3efd0;
+  }
+  
+  header {
+    background-color: maroon;
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  header h2 {
+    margin: 0;
+  }
+  
+  #date-selector {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #date-selector label {
+    margin-right: 10px;
+  }
+  
+  #date-selector input {
+    margin-right: 10px;
+  }
+  
+  #go-button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #go-button:hover {
+    background-color: darkred;
+  }
+  
+  #loading {
+    display: none;
+    margin: 20px;
+    font-size: 18px;
+    color: maroon;
+  }
+  

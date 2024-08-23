@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    text-align: center; 
+    position: relative;
+}
+
+h2 {
+    margin-top: 0;
+    color: white; /* Set color of the header text to white */
+}
+
+#header {
+    margin-top: 0;
+}
+
+#back-button {
+    background-color: gold;
+    color: maroon;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px; 
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+#back-button:hover {
+    background-color: #f0c14b;
+}
+
+.gold-line {
+    height: 5px;
+    background-color: gold;
+}
+
+#content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#info, #attendance {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: white; /* Ensure h2 text color is white */
+    text-align: center;
+}
+
+#attendance_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#attendance_table th, #attendance_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#attendance_table th {
+    background-color: maroon;
+    color: white;
+    text-align: left;
+}
+
+#attendance_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#attendance_table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-btn {
+    background-color: gold;
+    color: maroon;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    position-anchor: left;
+}
+
+.action-btn:hover {
+    background-color: #f0c14b;
+}
