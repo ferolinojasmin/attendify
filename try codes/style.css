@@ -1,0 +1,141 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3ebe2; /* Updated background color */
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #47525e;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+  color: #cccbb6; /* Updated color for ATTENDIFY */
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.logo-image {
+  margin-top: 10px; /* Adjust spacing as needed */
+  max-width: 80%; /* Adjust size as needed */
+  height: auto;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #e0e0e0;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.menu-item img {
+  margin-right: 10px;
+}
+
+.menu-item.active {
+  background-color: #627d98;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.logout {
+  text-align: center;
+}
+
+.logout button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+  background-color: #f3ebe2; /* White background for the main content */
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 2px solid #c18c5d; /* Line color */
+  padding-bottom: 10px; /* Space between the header and the line */
+  margin-bottom: 20px; /* Space between the line and the content below */
+  text-align: center; /* Center the text horizontally */
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #4e4e4e;
+}
+
+.content-section {
+  display: none; /* Hide all sections by default */
+}
+
+.content-section.active {
+  display: block; /* Show the active section */
+}
+
+.charts-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.chart-container {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff5e1; /* Background color for tables */
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+thead th {
+  background-color: #e3a29d;
+  color: #4e4e4e;
+}
+
+.menu-icon {
+  margin-right: 10px;
+  width: 24px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
